@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.531ac3ba.css",
+    "main.js": "/static/js/main.8930c6a6.js",
+    "static/media/Nipendra.png": "/static/media/Nipendra.a80e82516ef0eb9b8173.png",
+    "static/media/about.webp": "/static/media/about.2c2bda9a46420b56d2b5.webp",
+    "static/media/Logo.png": "/static/media/Logo.7d2e8dba6d046d41e711.png",
+    "static/media/testimonial-2.webp": "/static/media/testimonial-2.4c1e7c2fe42e548d2e0f.webp",
+    "static/media/p1.webp": "/static/media/p1.52f0f3a89c11044c2037.webp",
+    "static/media/p5.webp": "/static/media/p5.40f22911cc8104bfdf42.webp",
+    "static/media/testimonial-3.webp": "/static/media/testimonial-3.677360499dd5a97f022a.webp",
+    "static/media/services.svg": "/static/media/services.2d6c88f25842315ca095.svg",
+    "static/media/portfolio.svg": "/static/media/portfolio.2f31f4be113e35cc3442.svg",
+    "static/media/testimonials.svg": "/static/media/testimonials.07294ae9606e6d7ea071.svg",
+    "static/media/p3.webp": "/static/media/p3.05179f007af7cd2ad2a6.webp",
+    "static/media/contact.svg": "/static/media/contact.ec60abf53c38c2593f7e.svg",
+    "static/media/p4.webp": "/static/media/p4.373ffd063f14c91c84c5.webp",
+    "static/media/p6.webp": "/static/media/p6.26fcf4320bfa0eacc03a.webp",
+    "static/media/testimonial-1.webp": "/static/media/testimonial-1.8e05fd5dbc71387931b5.webp",
+    "static/media/p2.webp": "/static/media/p2.987c883e6e66df8a1228.webp",
+    "static/media/about.svg": "/static/media/about.70a8290c961c47c208b5.svg",
+    "index.html": "/index.html",
+    "main.531ac3ba.css.map": "/static/css/main.531ac3ba.css.map",
+    "main.8930c6a6.js.map": "/static/js/main.8930c6a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.531ac3ba.css",
+    "static/js/main.8930c6a6.js"
+  ]
+}
