@@ -179,17 +179,12 @@ export const skills = [
     image: SkillImg4,
   },
   {
-    image: SkillImg5,
-  },
-  {
     image: SkillImg6,
   },
   {
     image: SkillImg7,
   },
-  {
-    image: SkillImg8,
-  },
+  
 ];
 
 // services
