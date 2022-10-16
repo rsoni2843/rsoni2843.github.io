@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.531ac3ba.css",
-    "main.js": "/static/js/main.8930c6a6.js",
-    "static/media/Nipendra.png": "/static/media/Nipendra.a80e82516ef0eb9b8173.png",
-    "static/media/about.webp": "/static/media/about.2c2bda9a46420b56d2b5.webp",
+    "main.css": "/static/css/main.c27eb4d0.css",
+    "main.js": "/static/js/main.611e9336.js",
+    "static/media/Nipendra.png": "/static/media/Nipendra.d02ab80d56426a1568d0.png",
+    "static/media/Image.gif": "/static/media/Image.dad52f04d321534e210e.gif",
     "static/media/Logo.png": "/static/media/Logo.7d2e8dba6d046d41e711.png",
     "static/media/testimonial-2.webp": "/static/media/testimonial-2.4c1e7c2fe42e548d2e0f.webp",
     "static/media/p1.webp": "/static/media/p1.52f0f3a89c11044c2037.webp",
@@ -20,11 +20,11 @@
     "static/media/p2.webp": "/static/media/p2.987c883e6e66df8a1228.webp",
     "static/media/about.svg": "/static/media/about.70a8290c961c47c208b5.svg",
     "index.html": "/index.html",
-    "main.531ac3ba.css.map": "/static/css/main.531ac3ba.css.map",
-    "main.8930c6a6.js.map": "/static/js/main.8930c6a6.js.map"
+    "main.c27eb4d0.css.map": "/static/css/main.c27eb4d0.css.map",
+    "main.611e9336.js.map": "/static/js/main.611e9336.js.map"
   },
   "entrypoints": [
-    "static/css/main.531ac3ba.css",
-    "static/js/main.8930c6a6.js"
+    "static/css/main.c27eb4d0.css",
+    "static/js/main.611e9336.js"
   ]
 }
