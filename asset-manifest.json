@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c27eb4d0.css",
-    "main.js": "/static/js/main.611e9336.js",
+    "main.js": "/static/js/main.3e5a5b55.js",
     "static/media/Nipendra.png": "/static/media/Nipendra.d02ab80d56426a1568d0.png",
     "static/media/Image.gif": "/static/media/Image.dad52f04d321534e210e.gif",
     "static/media/Logo.png": "/static/media/Logo.7d2e8dba6d046d41e711.png",
@@ -21,10 +21,10 @@
     "static/media/about.svg": "/static/media/about.70a8290c961c47c208b5.svg",
     "index.html": "/index.html",
     "main.c27eb4d0.css.map": "/static/css/main.c27eb4d0.css.map",
-    "main.611e9336.js.map": "/static/js/main.611e9336.js.map"
+    "main.3e5a5b55.js.map": "/static/js/main.3e5a5b55.js.map"
   },
   "entrypoints": [
     "static/css/main.c27eb4d0.css",
-    "static/js/main.611e9336.js"
+    "static/js/main.3e5a5b55.js"
   ]
 }
