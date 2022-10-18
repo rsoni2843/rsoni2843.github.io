@@ -20,10 +20,11 @@ const App = () => {
       <Hero />
       <About />
       <Skills />
+      <Portfolio />
       {/* <Brands />
       
       
-      <Portfolio />
+      
       <Services />
       <Testimonials />
       <Contact />
