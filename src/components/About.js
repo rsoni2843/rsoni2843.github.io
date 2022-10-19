@@ -3,6 +3,12 @@ import "./common.css";
 // import img
 import Image from "../assets/img/About/Image.gif";
 import { Link } from "react-scroll";
+import Nipendra from "../assets/img/Nipendra.png"
+const bs = {
+  border:"1px solid #35B4E2",
+  borderRadius:"7%",
+  margin:"auto"
+}
 // import Image from '../assets/img/about.webp';
 // const Image = 'https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/coding-freak.gif'
 const About = () => {
@@ -10,8 +16,9 @@ const About = () => {
     <section className="section bg-tertiary" id="about">
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-24">
+          <img style={bs} className="lg:hidden h-full w-[370px]" src={Nipendra} alt={'Nipendra'}/>
           <img
-            className=" object-cover h-full w-[450px] md:mx-auto lg:mx-0 rounded-2xl coderImage"
+            className=" hidden lg:block object-cover h-full w-[450px] md:mx-auto lg:mx-0 rounded-2xl coderImage"
             src={Image}
             alt=""
           />
