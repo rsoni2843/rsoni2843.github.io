@@ -15,7 +15,7 @@ const Nav = () => {
             <li
               className="text-white hover:text-accent cursor-pointer"
               key={idx}
-            >
+            >{console.log(item)}
               <Link
                 to={item.href}
                 activeClass="active"

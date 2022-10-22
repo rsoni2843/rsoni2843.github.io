@@ -11,7 +11,10 @@ const style = {
 }
 const Skills = () => {
   return (
-    <section className='bg-tertiary py-12'>
+    <section id="portfolio" className='bg-tertiary py-12'>
+      <h2 className="section-title text-center mb-16">
+            Skills
+        </h2>
       <div className='container mx-auto'>
         <div
         style={style} 

@@ -21,12 +21,15 @@ import BehanceBrandIcon from "./assets/img/brands/behance.png";
 import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 
 // projects images
-import Project1 from "./assets/img/projects/p1.webp";
-import Project2 from "./assets/img/projects/p2.webp";
-import Project3 from "./assets/img/projects/p3.webp";
-import Project4 from "./assets/img/projects/p4.webp";
-import Project5 from "./assets/img/projects/p5.webp";
-import Project6 from "./assets/img/projects/p6.webp";
+
+import NDTV from "./assets/img/projects/NDTV ss.png";
+import Mailtrap from "./assets/img/projects/Mailtrap ss.png";
+import Orbitz from "./assets/img/projects/Orbitz ss.png";
+import Firstpost from "./assets/img/projects/Firstpost ss.png";
+import Netmeds from "./assets/img/projects/Netmeds SS.png";
+import Youtube from "./assets/img/projects/Youtube ss.png";
+import Weather from "./assets/img/projects/Weather ss.png";
+import StarWar from "./assets/img/projects/StarWar ss.png";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -111,39 +114,75 @@ export const brands = [
 export const projectsData = [
   {
     id: "1",
-    image: Project1,
-    name: "project name 1",
-    category: "UI/UX design",
+    image: Firstpost,
+    name: "Firstpost (Clone)",
+    category: "News",
+    description:
+      "Firstpost is an Indian online news and media website. Firstpost is a part of the Network 18 media conglomerate owned by Reliance Industries.",
+    link: "https://www.google.com",
   },
   {
     id: "2",
-    image: Project2,
-    name: "project name 2",
-    category: "web development",
+    image: Netmeds,
+    name: "Netmeds (Clone)",
+    category: "e-commerce (medicine)",
+    description:
+      "Netmeds Marketplace Limited operates as an online pharmacy. TheCompany offers eyewear, fitness, personal care, prescribed medicines, and health products.",
+    link: "https://brief-battle-8574-rsoni2843.vercel.app/",
   },
   {
     id: "3",
-    image: Project3,
-    name: "project name 3",
-    category: "UI/UX design",
+    image: Orbitz,
+    name: "Orbitz (Clone)",
+    category: "Hotel Booking",
+    description:
+      "Orbitz.com is a travel website that enables consumers to search for and book a broad range of hotels, flights, rentals, cruises, vacation packages and destination activities.",
+    link: "https://cheery-kringle-54f279.netlify.app/",
   },
   {
     id: "4",
-    image: Project4,
-    name: "project name 4",
-    category: "branding",
+    image: Mailtrap,
+    name: "Mailtrap (Clone)",
+    category: "E-Mail Testing",
+    description:
+      "Mailtrap.io represents a cloud-based email testing service with a fake SMTP server under the hood. You send test emails from your app and Mailtrap catches and puts them into a virtual inbox.",
+    link: "https://cerulean-pika-267e02.netlify.app/",
   },
   {
     id: "5",
-    image: Project5,
-    name: "project name 5",
-    category: "web development",
+    image: NDTV,
+    name: "NDTV (Clone)",
+    category: "News",
+    description:
+      "NDTV.com provides latest news from India and around the world. Get breaking news alerts from India and follow today's live news updates from various categories",
+    link: "https://stalwart-pika-fa453c.netlify.app/",
   },
   {
     id: "6",
-    image: Project6,
-    name: "project name 6",
-    category: "web development",
+    image: Youtube,
+    name: "Youtube (Clone)",
+    category: "Social Media",
+    description:
+      "YouTube is a video sharing service where users can watch, like, share, comment and upload their own videos.",
+    link: "https://glittering-klepon-7d8234.netlify.app/",
+  },
+  {
+    id: "7",
+    image: Weather,
+    name: "Weather App",
+    category: "Weather Information",
+    description:
+      "Weather app provides the weather information across the world for daily and weekly updates.",
+    link: "https://splendorous-granita-7d159d.netlify.app/",
+  },
+  {
+    id: "8",
+    image: StarWar,
+    name: "Starwar",
+    category: "Star War Character Search",
+    description:
+      "Star War character search using the debouncing feature in the JavaScript",
+    link: "https://brilliant-unicorn-47c550.netlify.app",
   },
 ];
 
@@ -179,13 +218,30 @@ export const skills = [
       "https://media0.giphy.com/media/RJzm826vu7WbJvBtxX/giphy.gif?cid=6c09b952f2tzzhgaacs16r6qc70g8s7labhgrwhuicih0wc3&rid=giphy.gif&ct=s",
   },
   {
-    image: SkillImg6,
+    image: "https://chiranjeev-thapliyal.vercel.app/svg/redux.svg",
+  },
+  {
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
   },
   {
     image: SkillImg7,
   },
   {
     image: "https://www.coffeeclass.io/logos/chakra-ui.png",
+  },
+  {
+    image: "https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg",
+  },
+  {
+    image: "https://chiranjeev-thapliyal.vercel.app/svg/mongodb.svg",
+  },
+  {
+    image:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+  },
+  {
+    image: "https://assets.stickpng.com/images/5847f40ecef1014c0b5e488a.png",
   },
 ];
 
