@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.71fd09f2.css",
-    "main.js": "/static/js/main.20003f03.js",
+    "main.css": "/static/css/main.971e4eaf.css",
+    "main.js": "/static/js/main.13aa2d94.js",
     "static/media/Nipendra.png": "/static/media/Nipendra.d02ab80d56426a1568d0.png",
     "static/media/Orbitz ss.png": "/static/media/Orbitz ss.d3c19abb2b4c42cc84da.png",
     "static/media/StarWar ss.png": "/static/media/StarWar ss.ef01883841f149420749.png",
@@ -17,14 +17,13 @@
     "static/media/testimonial-3.webp": "/static/media/testimonial-3.677360499dd5a97f022a.webp",
     "static/media/services.svg": "/static/media/services.2d6c88f25842315ca095.svg",
     "static/media/testimonials.svg": "/static/media/testimonials.07294ae9606e6d7ea071.svg",
-    "static/media/contact.svg": "/static/media/contact.ec60abf53c38c2593f7e.svg",
     "static/media/testimonial-1.webp": "/static/media/testimonial-1.8e05fd5dbc71387931b5.webp",
     "index.html": "/index.html",
-    "main.71fd09f2.css.map": "/static/css/main.71fd09f2.css.map",
-    "main.20003f03.js.map": "/static/js/main.20003f03.js.map"
+    "main.971e4eaf.css.map": "/static/css/main.971e4eaf.css.map",
+    "main.13aa2d94.js.map": "/static/js/main.13aa2d94.js.map"
   },
   "entrypoints": [
-    "static/css/main.71fd09f2.css",
-    "static/js/main.20003f03.js"
+    "static/css/main.971e4eaf.css",
+    "static/js/main.13aa2d94.js"
   ]
 }
