@@ -5,18 +5,16 @@ import { contact } from "../data";
 
 const Contact = () => {
   return (
-    <section className="section bg-secondary" id="contact">
-      <div className="container mx-auto">
+    <section className="section bg-tertiary" id="contact">
+      <div className="container mt--12 mx-auto">
         <div className="flex flex-col items-center text-center">
-          <h2 className="section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block">
-            Contact me
-          </h2>
-          <p className="subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
-          </p>
+          <h2 className="section-title before:lg:block">Contact me</h2>
+          <p className="subtitle mb-10">Contact Me for any help!</p>
         </div>
-        <div className="flex flex-col lg:gap-x-8 lg:flex-row">
+        <div
+          data-aos="fade-up"
+          className="flex flex-col lg:gap-x-8 lg:flex-row"
+        >
           <div className="flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2">
             {contact.map((item, index) => {
               const { icon, title, subtitle, description } = item;
@@ -34,20 +32,26 @@ const Contact = () => {
               );
             })}
           </div>
-          <form className="space-y-8 w-full max-w-[780px]">
-            <div className="flex gap-8">
-              <input className="input" type="text" placeholder="Your name" />
-              <input className="input" type="email" placeholder="Your email" />
-            </div>
-            <input className="input" type="text" placeholder="Subject" />
-            <textarea
-              className="textarea"
-              placeholder="Your message"
-            ></textarea>
-            <button className="btn btn-lg bg-accent hover:bg-secondary-hover">
-              Send message
-            </button>
-          </form>
+          <div>
+            <form className="space-y-8 w-full max-w-[780px]">
+              <div data-aos="fade-up" className="flex gap-8">
+                <input className="input" type="text" placeholder="Your name" />
+                <input
+                  className="input"
+                  type="email"
+                  placeholder="Your email"
+                />
+              </div>
+              <input className="input" type="text" placeholder="Subject" />
+              <textarea
+                className="textarea"
+                placeholder="Your message"
+              ></textarea>
+              <button className="btn btn-lg bg-accent hover:bg-secondary-hover">
+                Send message
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </section>

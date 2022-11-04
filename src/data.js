@@ -154,7 +154,7 @@ export const projectsData = [
     category: "News",
     description:
       "Firstpost is an Indian online news and media website. Firstpost is a part of the Network 18 media conglomerate owned by Reliance Industries.",
-    link: "https://www.google.com",
+    link: "https://firstpost-flame.vercel.app",
   },
   {
     id: "5",
@@ -317,11 +317,13 @@ export const contact = [
   {
     icon: <FiMapPin />,
     title: "Current Location",
-    subtitle: "Lucknow, Uttar Pradesh",
+    // subtitle: "",
+    description: "Lucknow, Uttar Pradesh",
   },
   {
     icon: <FiPhoneCall />,
     title: "Contact Information",
-    subtitle: "+91 8004657369",
+    subtitle: "",
+    description:"+91 8004657369"
   },
 ];

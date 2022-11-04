@@ -5,7 +5,7 @@ import "./common.css";
 const Project = ({ item }) => {
   console.log(item);
   return (
-    <div key={item.id} className="flex flex-col items-center text-center">
+    <div data-aos="zoom-in" key={item.id} className="flex flex-col items-center text-center">
       <div className="mb-6">
         <img className="rounded-2xl" src={item.image} alt={item.name} />
       </div>
