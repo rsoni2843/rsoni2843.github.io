@@ -25,7 +25,7 @@ const Header = () => {
       <div className=" scale-up-hor-center container mx-auto h-full flex items-center justify-between ">
         {/* logo */}
         <a className="w-20" href="#">
-          <img  src={Logo} alt="Logo" />
+          <img  src={Logo} alt="Logo"/>
         </a>
 
         {/* nav */}

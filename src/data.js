@@ -11,6 +11,8 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
+  FiDownload,
+  FiPhoneCall,
 } from "react-icons/fi";
 
 // companies icons
@@ -68,6 +70,7 @@ export const navigation = [
   //   name: 'contact',
   //   href: 'testimonials',
   // },
+
   {
     name: "contact",
     href: "contact",
@@ -83,6 +86,11 @@ export const social = [
   {
     icon: <FiLinkedin />,
     href: "https://www.linkedin.com/in/nipendra-soni-31b85017a",
+  },
+  {
+    icon: <FiDownload />,
+    href: "https://drive.google.com/uc?export=download&id=1-L34BLuSuGmlDiFZV4QNBgoBK_7kCm8x",
+    description: "(Resume)",
   },
 ];
 
@@ -113,15 +121,6 @@ export const brands = [
 // projects
 export const projectsData = [
   {
-    id: "1",
-    image: Firstpost,
-    name: "Firstpost (Clone)",
-    category: "News",
-    description:
-      "Firstpost is an Indian online news and media website. Firstpost is a part of the Network 18 media conglomerate owned by Reliance Industries.",
-    link: "https://www.google.com",
-  },
-  {
     id: "2",
     image: Netmeds,
     name: "Netmeds (Clone)",
@@ -147,6 +146,15 @@ export const projectsData = [
     description:
       "Mailtrap.io represents a cloud-based email testing service with a fake SMTP server under the hood. You send test emails from your app and Mailtrap catches and puts them into a virtual inbox.",
     link: "https://cerulean-pika-267e02.netlify.app/",
+  },
+  {
+    id: "1",
+    image: Firstpost,
+    name: "Firstpost (Clone)",
+    category: "News",
+    description:
+      "Firstpost is an Indian online news and media website. Firstpost is a part of the Network 18 media conglomerate owned by Reliance Industries.",
+    link: "https://www.google.com",
   },
   {
     id: "5",
@@ -304,12 +312,16 @@ export const contact = [
     icon: <FiMail />,
     title: "Have a question?",
     subtitle: "I am here to help you.",
-    description: "Email me at hello@youremail.com",
+    description: "Email me at rsoni2843@gmail.com.",
   },
   {
     icon: <FiMapPin />,
     title: "Current Location",
-    subtitle: "Bucharest, Romania",
-    description: "Serving clients worldwide",
+    subtitle: "Lucknow, Uttar Pradesh",
+  },
+  {
+    icon: <FiPhoneCall />,
+    title: "Contact Information",
+    subtitle: "+91 8004657369",
   },
 ];
