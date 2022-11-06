@@ -32,6 +32,8 @@ import Netmeds from "./assets/img/projects/Netmeds SS.png";
 import Youtube from "./assets/img/projects/Youtube ss.png";
 import Weather from "./assets/img/projects/Weather ss.png";
 import StarWar from "./assets/img/projects/StarWar ss.png";
+import Job from "./assets/img/projects/Job App.png";
+import Food from "./assets/img/projects/Food.png";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -182,6 +184,7 @@ export const projectsData = [
     image: Youtube,
     stack: "HTML, CSS, JavaScript, Rest API.",
     name: "Youtube",
+    github: "https://github.com/rsoni2843/Youtube-Clone-JS",
     category: "Social Media",
     description:
       "YouTube is a video sharing service where users can watch, like, share, comment and upload their own videos.",
@@ -190,6 +193,7 @@ export const projectsData = [
   {
     id: "7",
     image: Weather,
+    github: "https://github.com/rsoni2843/Weather_App_in_JS",
     stack: "HTML, CSS, JavaScript, Rest API.",
     name: "Weather App",
     category: "Weather Information",
@@ -200,12 +204,36 @@ export const projectsData = [
   {
     id: "8",
     image: StarWar,
+    github: "",
     stack: "HTML, CSS, JavaScript.",
     name: "Starwar",
     category: "Star War Character Search",
     description:
       "Star War character search using the debouncing feature in the JavaScript",
     link: "https://brilliant-unicorn-47c550.netlify.app",
+  },
+  {
+    id: "9",
+    image: Job,
+    github:
+      "https://github.com/rsoni2843/Job_App_with_JS_with_Sorting-Bookmark",
+    stack: "HTML, CSS, JavaScript, Local Storage.",
+    name: "Job App",
+    category: "Job app",
+    description:
+      "Job App made with the help of HTML, CSS & JavaScript with sorting, bookmarking & delete functionality.",
+    link: "https://transcendent-sunshine-d102aa.netlify.app/",
+  },
+  {
+    id: "10",
+    image: Food,
+    github: "https://github.com/rsoni2843/Food_App_in_JS_with_Auth",
+    stack: "HTML, CSS, JavaScript, Local Storage.",
+    name: "Food App",
+    category: "Job app",
+    description:
+      "Food App helps to search for the food which you want to search for and also shows some random recipe which is made with the help of the HTML, CSS & Javascript which shows the recipes when logged in.",
+    link: "https://transcendent-sunshine-d102aa.netlify.app/",
   },
 ];
 
