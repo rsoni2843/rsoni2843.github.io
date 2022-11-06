@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5ffee3ea.css",
-    "main.js": "/static/js/main.f325ad44.js",
+    "main.js": "/static/js/main.aeb05c4c.js",
+    "static/media/Food.png": "/static/media/Food.2d56da62f6409c49feb8.png",
     "static/media/Nipendra.png": "/static/media/Nipendra.d02ab80d56426a1568d0.png",
     "static/media/Orbitz ss.png": "/static/media/Orbitz ss.d3c19abb2b4c42cc84da.png",
     "static/media/StarWar ss.png": "/static/media/StarWar ss.ef01883841f149420749.png",
@@ -14,16 +15,17 @@
     "static/media/Weather ss.png": "/static/media/Weather ss.b8b8bfe91ee4d07891d4.png",
     "static/media/Logo.png": "/static/media/Logo.7d2e8dba6d046d41e711.png",
     "static/media/testimonial-2.webp": "/static/media/testimonial-2.4c1e7c2fe42e548d2e0f.webp",
+    "static/media/Job App.png": "/static/media/Job App.99ac8bfd5a017a92d736.png",
     "static/media/testimonial-3.webp": "/static/media/testimonial-3.677360499dd5a97f022a.webp",
     "static/media/services.svg": "/static/media/services.2d6c88f25842315ca095.svg",
     "static/media/testimonials.svg": "/static/media/testimonials.07294ae9606e6d7ea071.svg",
     "static/media/testimonial-1.webp": "/static/media/testimonial-1.8e05fd5dbc71387931b5.webp",
     "index.html": "/index.html",
     "main.5ffee3ea.css.map": "/static/css/main.5ffee3ea.css.map",
-    "main.f325ad44.js.map": "/static/js/main.f325ad44.js.map"
+    "main.aeb05c4c.js.map": "/static/js/main.aeb05c4c.js.map"
   },
   "entrypoints": [
     "static/css/main.5ffee3ea.css",
-    "static/js/main.f325ad44.js"
+    "static/js/main.aeb05c4c.js"
   ]
 }
