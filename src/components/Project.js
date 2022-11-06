@@ -20,13 +20,13 @@ const Project = ({ item }) => {
         </h3>
         <p className="text-sm text-left max-w-md">• {item.description}</p>
         <p className=" mt-2 text-sm mb-5 text-left">
-          {" "}
+          
           <span style={{ color: "white" }}>• Tech Stacks -</span> {item.stack}
         </p>
       </div>
 
       <div className="flex mt-2 gap-12 text-xl">
-        <a href="https://github.com/rsoni2843" target={"blank"}>
+        <a href={item.github} target={"blank"}>
           <p class=" projectGitIcon">
             <FiGithub />
           </p>

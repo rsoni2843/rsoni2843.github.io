@@ -123,7 +123,8 @@ export const projectsData = [
   {
     id: "2",
     image: Netmeds,
-    name: "Netmeds (Clone)",
+    name: "Netmeds (Individual)",
+    github: "https://github.com/rsoni2843/brief-battle-8574",
     stack:
       "HTML, CSS, JavaScript, React JS, Chakra UI, Rest API, NPM, React Router DOM, Firebase.",
     category: "e-commerce (medicine)",
@@ -134,7 +135,8 @@ export const projectsData = [
   {
     id: "3",
     image: Orbitz,
-    name: "Orbitz (Clone)",
+    name: "Orbitz (Collaborative)",
+    github: "https://github.com/rsoni2843/Orbitz.com-clone-",
     stack: "HTML, CSS, JavaScript, Rest API.",
     category: "Hotel Booking",
     description:
@@ -144,9 +146,10 @@ export const projectsData = [
   {
     id: "4",
     image: Mailtrap,
-    name: "Mailtrap (Clone)",
+    name: "Mailtrap (Collaborative)",
     stack: "HTML, CSS, JavaScript, JSON-Server.",
     category: "E-Mail Testing",
+    github: "https://github.com/rsoni2843/Mailtrap-Clone",
     description:
       "Mailtrap.io represents a cloud-based email testing service with a fake SMTP server under the hood. You send test emails from your app and Mailtrap catches and puts them into a virtual inbox.",
     link: "https://cerulean-pika-267e02.netlify.app/",
@@ -154,7 +157,8 @@ export const projectsData = [
   {
     id: "1",
     image: Firstpost,
-    name: "Firstpost (Clone)",
+    name: "Firstpost (Individual)",
+    github: "https://github.com/rsoni2843/wrong-mother-4289",
     stack:
       "HTML, CSS, JavaScript, React JS, Chakra UI, Bootstrap, React Router DOM.",
     category: "News",
@@ -166,8 +170,9 @@ export const projectsData = [
     id: "5",
     image: NDTV,
     stack: "HTML, CSS, JavaScript.",
-    name: "NDTV (Clone)",
+    name: "NDTV (Collaborative)",
     category: "News",
+    github: "https://github.com/rsoni2843/ndtv",
     description:
       "NDTV.com provides latest news from India and around the world. Get breaking news alerts from India and follow today's live news updates from various categories",
     link: "https://stalwart-pika-fa453c.netlify.app/",
@@ -176,7 +181,7 @@ export const projectsData = [
     id: "6",
     image: Youtube,
     stack: "HTML, CSS, JavaScript, Rest API.",
-    name: "Youtube (Clone)",
+    name: "Youtube",
     category: "Social Media",
     description:
       "YouTube is a video sharing service where users can watch, like, share, comment and upload their own videos.",
