@@ -180,6 +180,17 @@ export const projectsData = [
     link: "https://stalwart-pika-fa453c.netlify.app/",
   },
   {
+    id: "10",
+    image: Food,
+    github: "https://github.com/rsoni2843/Food_App_in_JS_with_Auth",
+    stack: "HTML, CSS, JavaScript, Local Storage.",
+    name: "Food App",
+    category: "Food Search app",
+    description:
+      "Food App helps to search for the food which you want to search for and also shows some random recipe which is made with the help of the HTML, CSS & Javascript which shows the recipes when logged in.",
+    link: "https://transcendent-sunshine-d102aa.netlify.app/",
+  },
+  {
     id: "6",
     image: Youtube,
     stack: "HTML, CSS, JavaScript, Rest API.",
@@ -222,17 +233,6 @@ export const projectsData = [
     category: "Job app",
     description:
       "Job App made with the help of HTML, CSS & JavaScript with sorting, bookmarking & delete functionality.",
-    link: "https://transcendent-sunshine-d102aa.netlify.app/",
-  },
-  {
-    id: "10",
-    image: Food,
-    github: "https://github.com/rsoni2843/Food_App_in_JS_with_Auth",
-    stack: "HTML, CSS, JavaScript, Local Storage.",
-    name: "Food App",
-    category: "Food Search app",
-    description:
-      "Food App helps to search for the food which you want to search for and also shows some random recipe which is made with the help of the HTML, CSS & Javascript which shows the recipes when logged in.",
     link: "https://transcendent-sunshine-d102aa.netlify.app/",
   },
 ];
