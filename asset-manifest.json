@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5ffee3ea.css",
-    "main.js": "/static/js/main.aeb05c4c.js",
+    "main.js": "/static/js/main.da97f15d.js",
     "static/media/Food.png": "/static/media/Food.2d56da62f6409c49feb8.png",
     "static/media/Nipendra.png": "/static/media/Nipendra.d02ab80d56426a1568d0.png",
     "static/media/Orbitz ss.png": "/static/media/Orbitz ss.d3c19abb2b4c42cc84da.png",
@@ -22,10 +22,10 @@
     "static/media/testimonial-1.webp": "/static/media/testimonial-1.8e05fd5dbc71387931b5.webp",
     "index.html": "/index.html",
     "main.5ffee3ea.css.map": "/static/css/main.5ffee3ea.css.map",
-    "main.aeb05c4c.js.map": "/static/js/main.aeb05c4c.js.map"
+    "main.da97f15d.js.map": "/static/js/main.da97f15d.js.map"
   },
   "entrypoints": [
     "static/css/main.5ffee3ea.css",
-    "static/js/main.aeb05c4c.js"
+    "static/js/main.da97f15d.js"
   ]
 }
