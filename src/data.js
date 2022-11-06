@@ -124,6 +124,8 @@ export const projectsData = [
     id: "2",
     image: Netmeds,
     name: "Netmeds (Clone)",
+    stack:
+      "HTML, CSS, JavaScript, React JS, Chakra UI, Rest API, NPM, React Router DOM, Firebase.",
     category: "e-commerce (medicine)",
     description:
       "Netmeds Marketplace Limited operates as an online pharmacy. TheCompany offers eyewear, fitness, personal care, prescribed medicines, and health products.",
@@ -133,6 +135,7 @@ export const projectsData = [
     id: "3",
     image: Orbitz,
     name: "Orbitz (Clone)",
+    stack: "HTML, CSS, JavaScript, Rest API.",
     category: "Hotel Booking",
     description:
       "Orbitz.com is a travel website that enables consumers to search for and book a broad range of hotels, flights, rentals, cruises, vacation packages and destination activities.",
@@ -142,6 +145,7 @@ export const projectsData = [
     id: "4",
     image: Mailtrap,
     name: "Mailtrap (Clone)",
+    stack: "HTML, CSS, JavaScript, JSON-Server.",
     category: "E-Mail Testing",
     description:
       "Mailtrap.io represents a cloud-based email testing service with a fake SMTP server under the hood. You send test emails from your app and Mailtrap catches and puts them into a virtual inbox.",
@@ -151,6 +155,8 @@ export const projectsData = [
     id: "1",
     image: Firstpost,
     name: "Firstpost (Clone)",
+    stack:
+      "HTML, CSS, JavaScript, React JS, Chakra UI, Bootstrap, React Router DOM.",
     category: "News",
     description:
       "Firstpost is an Indian online news and media website. Firstpost is a part of the Network 18 media conglomerate owned by Reliance Industries.",
@@ -159,6 +165,7 @@ export const projectsData = [
   {
     id: "5",
     image: NDTV,
+    stack: "HTML, CSS, JavaScript.",
     name: "NDTV (Clone)",
     category: "News",
     description:
@@ -168,6 +175,7 @@ export const projectsData = [
   {
     id: "6",
     image: Youtube,
+    stack: "HTML, CSS, JavaScript, Rest API.",
     name: "Youtube (Clone)",
     category: "Social Media",
     description:
@@ -177,6 +185,7 @@ export const projectsData = [
   {
     id: "7",
     image: Weather,
+    stack: "HTML, CSS, JavaScript, Rest API.",
     name: "Weather App",
     category: "Weather Information",
     description:
@@ -186,6 +195,7 @@ export const projectsData = [
   {
     id: "8",
     image: StarWar,
+    stack: "HTML, CSS, JavaScript.",
     name: "Starwar",
     category: "Star War Character Search",
     description:
@@ -324,6 +334,6 @@ export const contact = [
     icon: <FiPhoneCall />,
     title: "Contact Information",
     subtitle: "",
-    description:"+91 8004657369"
+    description: "+91 8004657369",
   },
 ];

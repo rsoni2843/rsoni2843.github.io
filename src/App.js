@@ -22,6 +22,7 @@ const App = () => {
       <Skills />
       <Portfolio />
       <Contact />
+      <BackTopBtn />
       {/* <Services /> */}
       {/* <Brands />
       
@@ -30,7 +31,7 @@ const App = () => {
       <Testimonials />
       
       <Footer />
-      <BackTopBtn /> */}
+       */}
     </div>
   );
 };
