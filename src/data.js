@@ -204,7 +204,7 @@ export const projectsData = [
   {
     id: "8",
     image: StarWar,
-    github: "",
+    github: "https://github.com/rsoni2843/Star-War_character_search_with_JS",
     stack: "HTML, CSS, JavaScript.",
     name: "Starwar",
     category: "Star War Character Search",
@@ -230,7 +230,7 @@ export const projectsData = [
     github: "https://github.com/rsoni2843/Food_App_in_JS_with_Auth",
     stack: "HTML, CSS, JavaScript, Local Storage.",
     name: "Food App",
-    category: "Job app",
+    category: "Food Search app",
     description:
       "Food App helps to search for the food which you want to search for and also shows some random recipe which is made with the help of the HTML, CSS & Javascript which shows the recipes when logged in.",
     link: "https://transcendent-sunshine-d102aa.netlify.app/",
