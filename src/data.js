@@ -1,10 +1,7 @@
 //  icons
 import {
-  FiYoutube,
   FiLinkedin,
-  FiInstagram,
   FiGithub,
-  FiDribbble,
   FiLayout,
   FiSettings,
   FiPenTool,
@@ -39,11 +36,7 @@ import Food from "./assets/img/projects/Food.png";
 import SkillImg1 from "./assets/img/skills/html5.png";
 import SkillImg2 from "./assets/img/skills/css3.png";
 import SkillImg3 from "./assets/img/skills/js.png";
-import SkillImg4 from "./assets/img/skills/reactjs.png";
-import SkillImg5 from "./assets/img/skills/nextjs.png";
-import SkillImg6 from "./assets/img/skills/nodejs.png";
 import SkillImg7 from "./assets/img/skills/git.png";
-import SkillImg8 from "./assets/img/skills/figma.png";
 
 // testimonial images
 import TestiImage1 from "./assets/img/testimonials/testimonial-1.webp";
@@ -68,10 +61,6 @@ export const navigation = [
     name: "project",
     href: "services",
   },
-  // {
-  //   name: 'contact',
-  //   href: 'testimonials',
-  // },
 
   {
     name: "contact",

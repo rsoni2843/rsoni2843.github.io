@@ -1,5 +1,5 @@
 import React from "react";
-import { FiExternalLink, FiGithub, FiLink } from "react-icons/fi";
+import { FiExternalLink, FiGithub } from "react-icons/fi";
 import "./common.css";
 
 const Project = ({ item }) => {

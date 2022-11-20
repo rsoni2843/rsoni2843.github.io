@@ -19,17 +19,19 @@ const Hero = () => {
             <h1 className="text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-4xl lg:leading-[1.2] font-bold md:tracking-[10px]">
               I am a Full-Stack <br /> Web Developer.
             </h1>
-            <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
-              
-            </p>
+            <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left"></p>
             <a href="https://drive.google.com/file/d/1-L34BLuSuGmlDiFZV4QNBgoBK_7kCm8x/view">
               <button className="btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all">
                 Resume
               </button>
             </a>
           </div>
-          <div className="hidden lg:flex flex-1 justify-end items-end h-full ">
-            <img className="slide-up-center imageNipendra" src={Nipendra} alt="Nipendra" />
+          <div className="hidden lg:flex flex-1 justify-end items-end h-half ">
+            <img
+              className="slide-up-center imageNipendra"
+              src={Nipendra}
+              alt="Nipendra"
+            />
           </div>
         </div>
       </div>
