@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.562f41a6.css",
-    "main.js": "/static/js/main.349f0c17.js",
+    "main.js": "/static/js/main.c092ea80.js",
     "static/css/815.0cd14c57.chunk.css": "/static/css/815.0cd14c57.chunk.css",
     "static/js/424.f73831d1.chunk.js": "/static/js/424.f73831d1.chunk.js",
     "static/media/Food.png": "/static/media/Food.2d56da62f6409c49feb8.png",
@@ -15,19 +15,19 @@
     "static/media/Mailtrap ss.png": "/static/media/Mailtrap ss.c55225bd8d7fa841cef4.png",
     "static/media/Image.gif": "/static/media/Image.dad52f04d321534e210e.gif",
     "static/media/Weather ss.png": "/static/media/Weather ss.b8b8bfe91ee4d07891d4.png",
-    "static/media/Logo.png": "/static/media/Logo.7d2e8dba6d046d41e711.png",
     "static/media/testimonial-2.webp": "/static/media/testimonial-2.4c1e7c2fe42e548d2e0f.webp",
     "static/media/Job App.png": "/static/media/Job App.99ac8bfd5a017a92d736.png",
+    "static/media/Logo.png": "/static/media/Logo.4357064bd9b7d407b4d7.png",
     "static/media/testimonial-3.webp": "/static/media/testimonial-3.677360499dd5a97f022a.webp",
     "static/media/testimonial-1.webp": "/static/media/testimonial-1.8e05fd5dbc71387931b5.webp",
     "index.html": "/index.html",
     "main.562f41a6.css.map": "/static/css/main.562f41a6.css.map",
-    "main.349f0c17.js.map": "/static/js/main.349f0c17.js.map",
+    "main.c092ea80.js.map": "/static/js/main.c092ea80.js.map",
     "815.0cd14c57.chunk.css.map": "/static/css/815.0cd14c57.chunk.css.map",
     "424.f73831d1.chunk.js.map": "/static/js/424.f73831d1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.562f41a6.css",
-    "static/js/main.349f0c17.js"
+    "static/js/main.c092ea80.js"
   ]
 }
