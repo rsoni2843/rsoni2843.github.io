@@ -18,22 +18,15 @@ module.exports = {
       xl: "1280px",
     },
     extend: {
-      content: {
-        about: 'url("/src/assets/img/outline-text/about.svg")',
-        portfolio: 'url("/src/assets/img/outline-text/portfolio.svg")',
-        services: 'url("/src/assets/img/outline-text/services.svg")',
-        testimonials: 'url("/src/assets/img/outline-text/testimonials.svg")',
-        contact: 'url("/src/assets/img/outline-text/contact.svg")',
-      },
       colors: {
-        primary: "#050402",
-        secondary: "#1C1D24",
-        tertiary: "#131419",
+        primary: "rgb(243, 161, 182)",
+        secondary: "rgb(243, 161, 182)",
+        tertiary: "rgb(244, 84, 151)",
         accent: {
-          DEFAULT: "#35B4E2",
-          hover: "#2E9CC4",
+          DEFAULT: "black",
+          hover: "rgb(36, 35, 35)",
         },
-        paragraph: "#878e99",
+        paragraph: "black",
       },
     },
   },

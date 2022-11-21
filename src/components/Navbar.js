@@ -10,8 +10,8 @@ const Navbar = () => {
   return (
     <>
       <TailwindNavbar
-        brand={<img src={Logo} width="70" alt="NS Logo" />}
-        className="py-1 capitalize"
+        brand={<img src={Logo} width="170" height="70" alt="NS Logo" />}
+        className="py-1 capitalize bg-red-300"
       >
         <div className="lg:flex items-center gap-56">
           <nav>

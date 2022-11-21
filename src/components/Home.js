@@ -16,7 +16,7 @@ const Hero = () => {
             <p className="text-accent text-4xl  mb-[18px]">
               Hey, I'm Nipendra Soni! 👋
             </p>
-            <h1 className="text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-4xl lg:leading-[1.2] font-bold md:tracking-[10px]">
+            <h1 className="text-4xl leading-[44px]  md:text-5xl md:leading-tight lg:text-4xl lg:leading-[1.2] font-bold md:tracking-[10px] text-black">
               I am a Full-Stack <br /> Web Developer.
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left"></p>
