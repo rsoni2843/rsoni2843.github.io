@@ -19,9 +19,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "rgb(243, 161, 182)",
-        secondary: "rgb(243, 161, 182)",
-        tertiary: "rgb(244, 84, 151)",
+        primary: "rgb(94, 191, 243)",
+        secondary: "rgb(94, 191, 243)",
+        tertiary: "rgb(75, 172, 224)",
         accent: {
           DEFAULT: "black",
           hover: "rgb(36, 35, 35)",

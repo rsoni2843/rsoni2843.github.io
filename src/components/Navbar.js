@@ -11,7 +11,7 @@ const Navbar = () => {
     <>
       <TailwindNavbar
         brand={<img src={Logo} width="170" height="70" alt="NS Logo" />}
-        className="py-1 capitalize bg-red-300"
+        className="py-1 capitalize bg-red-500"
       >
         <div className="lg:flex items-center gap-56">
           <nav>

@@ -694,11 +694,11 @@
   }
   
   .bg-red-400 {
-    background-color: #fc8181;
+    background-color: rgb(75, 172, 224);
   }
   
   .bg-red-500 {
-    background-color: #f56565;
+    background-color: rgb(94, 191, 243);
   }
   
   .bg-red-600 {
