@@ -31,6 +31,7 @@ import Weather from "./assets/img/projects/Weather ss.png";
 import StarWar from "./assets/img/projects/StarWar ss.png";
 import Job from "./assets/img/projects/Job App.png";
 import Food from "./assets/img/projects/Food.png";
+import TravelGo from "./assets/img/projects/TravelGo.png";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -117,11 +118,23 @@ export const projectsData = [
     name: "Netmeds (Individual)",
     github: "https://github.com/rsoni2843/brief-battle-8574",
     stack:
-      "HTML, CSS, JavaScript, React JS, Chakra UI, Rest API, NPM, React Router DOM, Firebase.",
+      "HTML, CSS, JavaScript, React JS, Redux, Chakra UI, Rest API, NPM, React Router DOM, Firebase, Mongo DB, Express JS.",
     category: "e-commerce (medicine)",
     description:
       "Netmeds Marketplace Limited operates as an online pharmacy. TheCompany offers eyewear, fitness, personal care, prescribed medicines, and health products.",
-    link: "https://brief-battle-8574-rsoni2843.vercel.app/",
+    link: "https://netmeds-rsoni2843.web.app/",
+  },
+  {
+    id: 10,
+    image: TravelGo,
+    name: "TravelGo (Collaborative)",
+    github: "https://github.com/rsoni2843/Tripadvisor-Clone",
+    stack:
+      "HTML, CSS, JavaScript, React JS, Redux, React-Redux, Chakra UI, NPM, React Router DOM, Node JS, Express JS, Mongo DB, Heroku, Firebase.",
+    category: "travelling (Hotel Booking)",
+    description:
+      "TravelGo is a clone of Tripadvisor & Tripadvisor is an American online travel company that operates a website and mobile app with user-generated content and a comparison shopping website",
+    link: "https://tripadvisor-rsoni2843.web.app/",
   },
   {
     id: "3",

@@ -3,15 +3,18 @@ import { FiExternalLink, FiGithub } from "react-icons/fi";
 import "./common.css";
 
 const Project = ({ item }) => {
-  console.log(item);
   return (
     <div
       data-aos="zoom-in"
       key={item.id}
-      className="flex flex-col items-center text-center"
+      className="flex flex-col items-center text-center bg-white border-solid border-2 border-white rounded-lg p-2"
     >
       <div className="mb-6">
-        <img className="rounded-2xl" src={item.image} alt={item.name} />
+        <img
+          className="rounded-2xl border-2 border-stone-300 h-48"
+          src={item.image}
+          alt={item.name}
+        />
       </div>
       <div className="">
         <p className="capitalize text-sm mb-1 text-left ">{item.category}</p>
@@ -31,7 +34,7 @@ const Project = ({ item }) => {
           </p>
         </a>
         <a href={item.link} target={"blank"}>
-          <p class=" projectGitIcon">
+          <p className=" projectGitIcon">
             <FiExternalLink className="text-accent" />
           </p>
         </a>

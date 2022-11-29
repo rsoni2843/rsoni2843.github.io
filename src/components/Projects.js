@@ -25,7 +25,7 @@ const Projects = () => {
     setItem({ name: e.target.textContent.toLowerCase() });
     setActive(index);
   };
-  console.log(projects);
+
   return (
     <div>
       <section className="grid gap-y-10 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8">

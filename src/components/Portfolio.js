@@ -17,17 +17,17 @@ const Portfolio = () => {
 
         <Projects />
       </div>
-      <div className="flex mt-14 flex-col mx-auto items-center hidden lg:flex">
+      <div className="flex mt-14 flex-col mx-auto items-center px-4 lg:flex">
         <h2 className="section-title text-center text-accent">Github Stats</h2>
         <div className="flex gap-10">
-          <p align="left" className="w-96">
+          <p align="left" className="w-100">
             <img
               align="center"
               src="https://github-readme-stats.vercel.app/api?username=rsoni2843&show_icons=true&locale=en"
               alt="rsoni2843"
             />
           </p>
-          <p className="w-96" align="left">
+          <p className="w-100" align="left">
             <img
               align="center"
               src="https://github-readme-streak-stats.herokuapp.com/?user=rsoni2843"
@@ -35,8 +35,8 @@ const Portfolio = () => {
             />
           </p>
         </div>
-        <div className="  mt-10">
-          <GitHubCalendar color="#43abd0" username="rsoni2843">
+        <div id="githubCalender" className="mt-10">
+          <GitHubCalendar color="black" username="rsoni2843">
             <ReactTooltip data-effect="float" delayShow={20} html />
           </GitHubCalendar>
         </div>

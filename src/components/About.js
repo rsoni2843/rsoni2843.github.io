@@ -23,6 +23,7 @@ const About = () => {
             alt={"Nipendra"}
           />
           <img
+            style={bs}
             className="hidden lg:block  h-full w-[450px] md:mx-auto lg:mx-0 rounded-2xl "
             src={Image}
             alt=""
