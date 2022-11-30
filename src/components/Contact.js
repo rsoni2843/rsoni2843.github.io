@@ -37,7 +37,7 @@ const Contact = () => {
             })}
           </div>
           <div>
-            <form className="space-y-8 w-full max-w-[780px]">
+            <form className="space-y-2 w-full max-w-[780px]">
               <div data-aos="fade-up" className="flex gap-8">
                 <input className="input" type="text" placeholder="Your name" />
                 <input

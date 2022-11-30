@@ -23,7 +23,7 @@ const Project = ({ item }) => {
         </h3>
         <p className="text-sm text-left max-w-md">• {item.description}</p>
         <p className=" mt-2 text-accent text-sm mb-5 text-left">
-          <span>• Tech Stacks -</span> {item.stack}
+          <span className="font-bold">• Tech Stacks -</span> {item.stack}
         </p>
       </div>
 
