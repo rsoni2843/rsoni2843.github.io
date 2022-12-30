@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.1b10c393.css",
-    "main.js": "/static/js/main.1bc9186d.js",
-    "static/css/815.0cd14c57.chunk.css": "/static/css/815.0cd14c57.chunk.css",
-    "static/js/424.f73831d1.chunk.js": "/static/js/424.f73831d1.chunk.js",
+    "main.js": "/static/js/main.a6d8f78b.js",
+    "static/css/815.50da6d39.chunk.css": "/static/css/815.50da6d39.chunk.css",
+    "static/js/424.698f4b5e.chunk.js": "/static/js/424.698f4b5e.chunk.js",
     "static/media/Food.png": "/static/media/Food.2d56da62f6409c49feb8.png",
     "static/media/Nipendra.png": "/static/media/Nipendra.d02ab80d56426a1568d0.png",
     "static/media/Orbitz ss.png": "/static/media/Orbitz ss.d3c19abb2b4c42cc84da.png",
@@ -23,12 +23,12 @@
     "static/media/testimonial-1.webp": "/static/media/testimonial-1.8e05fd5dbc71387931b5.webp",
     "index.html": "/index.html",
     "main.1b10c393.css.map": "/static/css/main.1b10c393.css.map",
-    "main.1bc9186d.js.map": "/static/js/main.1bc9186d.js.map",
-    "815.0cd14c57.chunk.css.map": "/static/css/815.0cd14c57.chunk.css.map",
-    "424.f73831d1.chunk.js.map": "/static/js/424.f73831d1.chunk.js.map"
+    "main.a6d8f78b.js.map": "/static/js/main.a6d8f78b.js.map",
+    "815.50da6d39.chunk.css.map": "/static/css/815.50da6d39.chunk.css.map",
+    "424.698f4b5e.chunk.js.map": "/static/js/424.698f4b5e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b10c393.css",
-    "static/js/main.1bc9186d.js"
+    "static/js/main.a6d8f78b.js"
   ]
 }
