@@ -26,9 +26,9 @@ const Hero = () => {
               </button>
             </a>
           </div>
-          <div className="hidden lg:flex flex-1 justify-end items-end h-half ">
+          <div className="hidden lg:flex flex-1 justify-end items-end h-90 ">
             <img
-              className="slide-up-center imageNipendra"
+              className="slide-up-center h-100 imageNipendra"
               src={Nipendra}
               alt="Nipendra"
             />

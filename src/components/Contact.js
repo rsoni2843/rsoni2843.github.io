@@ -1,6 +1,4 @@
-import React from "react";
-
-// import contact data
+import React, { useState } from "react";
 import { contact } from "../data";
 
 const Contact = () => {
@@ -39,15 +37,27 @@ const Contact = () => {
           <div>
             <form className="space-y-2 w-full max-w-[780px]">
               <div data-aos="fade-up" className="flex gap-8">
-                <input className="input" type="text" placeholder="Your name" />
                 <input
+                  required
+                  className="input"
+                  type="text"
+                  placeholder="Your name"
+                />
+                <input
+                  required
                   className="input"
                   type="email"
                   placeholder="Your email"
                 />
               </div>
-              <input className="input" type="text" placeholder="Subject" />
+              <input
+                required
+                className="input"
+                type="text"
+                placeholder="Subject"
+              />
               <textarea
+                required
                 className="textarea"
                 placeholder="Your message"
               ></textarea>
