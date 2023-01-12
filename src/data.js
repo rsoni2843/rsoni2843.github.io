@@ -281,7 +281,7 @@ export const skills = [
     image: SkillImg7,
   },
   {
-    image: "https://assets.stickpng.com/images/5847f40ecef1014c0b5e488a.png",
+    image: "https://miro.medium.com/max/300/1*R4c8lHBHuH5qyqOtZb3h-w.png",
   },
   {
     image: "https://www.coffeeclass.io/logos/chakra-ui.png",
@@ -353,6 +353,20 @@ export const testimonials = [
 
 // contact
 export const contact = [
+  {
+    icon: <FiGithub />,
+    title: "Github",
+    subtitle: "Click Here",
+    description: "",
+    link: "https://github.com/rsoni2843",
+  },
+  {
+    icon: <FiLinkedin />,
+    title: "LinkedIn",
+    subtitle: "Click Here",
+    description: "",
+    link: "https://www.linkedin.com/in/nipendra-soni-31b85017a",
+  },
   {
     icon: <FiMail />,
     title: "Have a question?",
