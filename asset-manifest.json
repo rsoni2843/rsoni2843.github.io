@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.fdf6b25d.css",
-    "main.js": "/static/js/main.b9beb142.js",
+    "main.js": "/static/js/main.98b1de33.js",
     "static/css/815.50da6d39.chunk.css": "/static/css/815.50da6d39.chunk.css",
     "static/js/424.698f4b5e.chunk.js": "/static/js/424.698f4b5e.chunk.js",
-    "static/media/Nipendra.png": "/static/media/Nipendra.0a6579ed17ad5453b3a6.png",
     "static/media/Food.png": "/static/media/Food.2d56da62f6409c49feb8.png",
     "static/media/Orbitz ss.png": "/static/media/Orbitz ss.d3c19abb2b4c42cc84da.png",
     "static/media/StarWar ss.png": "/static/media/StarWar ss.ef01883841f149420749.png",
@@ -15,6 +14,7 @@
     "static/media/Netmeds SS.png": "/static/media/Netmeds SS.8e437ace19727825be4e.png",
     "static/media/Youtube ss.png": "/static/media/Youtube ss.c5e51f2d7964bfa653fe.png",
     "static/media/Mailtrap ss.png": "/static/media/Mailtrap ss.c55225bd8d7fa841cef4.png",
+    "static/media/Nipendra.png": "/static/media/Nipendra.7fd81b34715cfc7c7385.png",
     "static/media/Weather ss.png": "/static/media/Weather ss.b8b8bfe91ee4d07891d4.png",
     "static/media/testimonial-2.webp": "/static/media/testimonial-2.4c1e7c2fe42e548d2e0f.webp",
     "static/media/Job App.png": "/static/media/Job App.99ac8bfd5a017a92d736.png",
@@ -23,12 +23,12 @@
     "static/media/testimonial-1.webp": "/static/media/testimonial-1.8e05fd5dbc71387931b5.webp",
     "index.html": "/index.html",
     "main.fdf6b25d.css.map": "/static/css/main.fdf6b25d.css.map",
-    "main.b9beb142.js.map": "/static/js/main.b9beb142.js.map",
+    "main.98b1de33.js.map": "/static/js/main.98b1de33.js.map",
     "815.50da6d39.chunk.css.map": "/static/css/815.50da6d39.chunk.css.map",
     "424.698f4b5e.chunk.js.map": "/static/js/424.698f4b5e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fdf6b25d.css",
-    "static/js/main.b9beb142.js"
+    "static/js/main.98b1de33.js"
   ]
 }
