@@ -7,7 +7,7 @@ const Project = ({ item }) => {
     <div
       data-aos="zoom-in"
       key={item.id}
-      className="flex flex-col items-center text-center bg-white border-solid border-2 border-white rounded-lg p-2"
+      className="flex flex-col items-center text-center bg-white border-solid border-2 border-white rounded-2xl p-2"
     >
       <div className="mb-6">
         <img

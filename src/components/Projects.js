@@ -7,7 +7,7 @@ import Project from "./Project";
 const Projects = () => {
   const [item, setItem] = useState({ name: "all" });
   const [projects, setProjects] = useState([]);
-  const [active, setActive] = useState(0);
+  // const [active, setActive] = useState(0);
 
   useEffect(() => {
     // get projects based on item
@@ -21,10 +21,10 @@ const Projects = () => {
     }
   }, [item]);
 
-  const handleClick = (e, index) => {
-    setItem({ name: e.target.textContent.toLowerCase() });
-    setActive(index);
-  };
+  // const handleClick = (e, index) => {
+  //   setItem({ name: e.target.textContent.toLowerCase() });
+  //   setActive(index);
+  // };
 
   return (
     <div>

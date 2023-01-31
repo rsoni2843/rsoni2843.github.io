@@ -3,14 +3,20 @@ import { TailwindNavbar } from "tailwind-navbar-react";
 import { social } from "../data";
 import "./navbar.css";
 import { navigation } from "../data";
-import Logo from "../assets/img/Logo.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
     <>
       <TailwindNavbar
-        brand={<img src={Logo} width="170" height="70" alt="NS Logo" />}
+        brand={
+          <img
+            src={"https://i.stack.imgur.com/UJj6K.png"}
+            width="170"
+            height="70"
+            alt="NS Logo"
+          />
+        }
         className="py-1 capitalize bg-red-500"
       >
         <div className="lg:flex items-center gap-56">

@@ -1,9 +1,8 @@
 import React from "react";
 import "./common.css";
-// import img
-import Image from "../assets/img/About/Image.gif";
+
 import { Link } from "react-scroll";
-import Nipendra from "../assets/img/Nipendra.png";
+// import Nipendra from "../assets/img/Nipendra.png";
 const bs = {
   border: "1px solid #35B4E2",
   borderRadius: "7%",
@@ -19,13 +18,13 @@ const About = () => {
           <img
             style={bs}
             className="lg:hidden h-full w-[370px]"
-            src={Nipendra}
+            src={"https://i.stack.imgur.com/xPFf4.png"}
             alt={"Nipendra"}
           />
           <img
             style={bs}
             className="hidden lg:block  h-full w-[450px] md:mx-auto lg:mx-0 rounded-2xl "
-            src={Image}
+            src={"https://i.stack.imgur.com/FpTQZ.gif"}
             alt=""
           />
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">

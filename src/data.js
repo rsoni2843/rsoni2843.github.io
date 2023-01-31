@@ -2,47 +2,12 @@
 import {
   FiLinkedin,
   FiGithub,
-  FiLayout,
-  FiSettings,
-  FiPenTool,
-  FiTag,
   FiMail,
   FiMapPin,
   FiDownload,
   FiPhoneCall,
 } from "react-icons/fi";
 
-// companies icons
-import FreelancerBrandIcon from "./assets/img/brands/freelancer.png";
-import UpworkBrandIcon from "./assets/img/brands/upwork.png";
-import FiverBrandIcon from "./assets/img/brands/fiverr.png";
-import BehanceBrandIcon from "./assets/img/brands/behance.png";
-import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
-
-// projects images
-
-import NDTV from "./assets/img/projects/NDTV ss.png";
-import Mailtrap from "./assets/img/projects/Mailtrap ss.png";
-import Orbitz from "./assets/img/projects/Orbitz ss.png";
-import Firstpost from "./assets/img/projects/Firstpost ss.png";
-import Netmeds from "./assets/img/projects/Netmeds SS.png";
-import Youtube from "./assets/img/projects/Youtube ss.png";
-import Weather from "./assets/img/projects/Weather ss.png";
-import StarWar from "./assets/img/projects/StarWar ss.png";
-import Job from "./assets/img/projects/Job App.png";
-import Food from "./assets/img/projects/Food.png";
-import TravelGo from "./assets/img/projects/TravelGo.png";
-
-// skills images
-import SkillImg1 from "./assets/img/skills/html5.png";
-import SkillImg2 from "./assets/img/skills/css3.png";
-import SkillImg3 from "./assets/img/skills/js.png";
-import SkillImg7 from "./assets/img/skills/git.png";
-
-// testimonial images
-import TestiImage1 from "./assets/img/testimonials/testimonial-1.webp";
-import TestiImage2 from "./assets/img/testimonials/testimonial-2.webp";
-import TestiImage3 from "./assets/img/testimonials/testimonial-3.webp";
 
 // navigation
 export const navigation = [
@@ -86,30 +51,6 @@ export const social = [
   },
 ];
 
-// companies
-export const brands = [
-  {
-    img: FreelancerBrandIcon,
-    href: "",
-  },
-  {
-    img: UpworkBrandIcon,
-    href: "",
-  },
-  {
-    img: FiverBrandIcon,
-    href: "",
-  },
-  {
-    img: BehanceBrandIcon,
-    href: "",
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: "",
-  },
-];
-
 // projects
 export const projectsData = [
   {
@@ -127,10 +68,11 @@ export const projectsData = [
   },
   {
     id: "2",
-    image: Netmeds,
+    image: "https://i.stack.imgur.com/QoWU4.png",
     name: "Netmeds (Individual)",
     github: "https://github.com/rsoni2843/brief-battle-8574",
-    stack: "React JS, Redux, Firebase, Mongo DB, Express JS, Chakra UI",
+    stack:
+      "React JS, Redux, Firebase, Node JS, Express JS, Mongo DB, Chakra UI",
     category: "e-commerce (medicine)",
     description:
       "Netmeds Marketplace Limited operates as an online pharmacy. TheCompany offers eyewear, fitness, personal care, prescribed medicines, and health products.",
@@ -138,7 +80,7 @@ export const projectsData = [
   },
   {
     id: 10,
-    image: TravelGo,
+    image: "https://i.stack.imgur.com/wqlPS.jpg",
     name: "TravelGo (Collaborative)",
     github: "https://github.com/rsoni2843/Tripadvisor-Clone",
     stack: "React JS, Redux, Node JS, Express JS, Mongo DB, TypeScript",
@@ -150,7 +92,7 @@ export const projectsData = [
 
   {
     id: "4",
-    image: Mailtrap,
+    image: "https://i.stack.imgur.com/c6rlc.png",
     name: "Mailtrap (Collaborative)",
     stack: "HTML, CSS, JavaScript, JSON-Server",
     category: "E-Mail Testing",
@@ -161,7 +103,7 @@ export const projectsData = [
   },
   {
     id: "1",
-    image: Firstpost,
+    image: "https://i.stack.imgur.com/XIN6e.jpg",
     name: "Firstpost (Individual)",
     github: "https://github.com/rsoni2843/wrong-mother-4289",
     stack: "React JS, Chakra UI, Bootstrap, React Router DOM",
@@ -171,8 +113,19 @@ export const projectsData = [
     link: "https://beautiful-queijadas-33f507.netlify.app/",
   },
   {
+    id: "11",
+    image: "https://i.stack.imgur.com/nJIPE.png",
+    stack: "React JS, Redux, Chakra UI, Node JS, Express JS, Mongo DB",
+    name: "Quizzy (Individual)",
+    category: "Quiz app",
+    github: "https://github.com/rsoni2843/Quiz-app-with-mern",
+    description:
+      "Quiz app with mern stack where you can play the quiz according to you category choice, difficulty level and number of questions",
+    link: "https://gleaming-mousse-e57839.netlify.app/",
+  },
+  {
     id: "5",
-    image: NDTV,
+    image: "https://i.stack.imgur.com/gIhoj.jpg",
     stack: "HTML, CSS, JavaScript",
     name: "NDTV (Collaborative)",
     category: "News",
@@ -183,7 +136,7 @@ export const projectsData = [
   },
   {
     id: "10",
-    image: Food,
+    image: "https://i.stack.imgur.com/CZhHP.jpg",
     github: "https://github.com/rsoni2843/Food_App_in_JS_with_Auth",
     stack: "HTML, CSS, JavaScript, Local Storage",
     name: "Food App",
@@ -194,7 +147,7 @@ export const projectsData = [
   },
   {
     id: "6",
-    image: Youtube,
+    image: "https://i.stack.imgur.com/UA9vq.png",
     stack: "HTML, CSS, JavaScript, Rest API",
     name: "Youtube",
     github: "https://github.com/rsoni2843/Youtube-Clone-JS",
@@ -205,7 +158,7 @@ export const projectsData = [
   },
   {
     id: "7",
-    image: Weather,
+    image: "https://i.stack.imgur.com/SvfDs.png",
     github: "https://github.com/rsoni2843/Weather_App_in_JS",
     stack: "HTML, CSS, JavaScript, Rest API",
     name: "Weather App",
@@ -227,7 +180,7 @@ export const projectsData = [
   // },
   {
     id: "9",
-    image: Job,
+    image: "https://i.stack.imgur.com/InmnU.png",
     github:
       "https://github.com/rsoni2843/Job_App_with_JS_with_Sorting-Bookmark",
     stack: "HTML, CSS, JavaScript, Local Storage",
@@ -239,32 +192,16 @@ export const projectsData = [
   },
 ];
 
-// projects
-export const projectsNav = [
-  {
-    name: "all",
-  },
-  {
-    name: "UI/UX Design",
-  },
-  {
-    name: "web development",
-  },
-  {
-    name: "branding",
-  },
-];
-
 // skill
 export const skills = [
   {
-    image: SkillImg1,
+    image: "https://i.stack.imgur.com/8bTDJ.png",
   },
   {
-    image: SkillImg2,
+    image: "https://i.stack.imgur.com/bNKw4.png",
   },
   {
-    image: SkillImg3,
+    image: "https://i.stack.imgur.com/UZkXg.png",
   },
   {
     image:
@@ -278,7 +215,7 @@ export const skills = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
   },
   {
-    image: SkillImg7,
+    image: "https://i.stack.imgur.com/80vyT.png",
   },
   {
     image: "https://miro.medium.com/max/300/1*R4c8lHBHuH5qyqOtZb3h-w.png",
@@ -295,59 +232,6 @@ export const skills = [
   {
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-  },
-];
-
-// services
-export const services = [
-  {
-    icon: <FiLayout />,
-    name: "Web Design",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
-  },
-  {
-    icon: <FiSettings />,
-    name: "Web Development",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
-  },
-  {
-    icon: <FiPenTool />,
-    name: "Branding",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
-  },
-  {
-    icon: <FiTag />,
-    name: "SEO",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
-  },
-];
-
-// testimonials
-export const testimonials = [
-  {
-    authorImg: TestiImage1,
-    authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-    authorName: "Olivia Doe",
-    authorPosition: "Head of Design, Google",
-  },
-  {
-    authorImg: TestiImage2,
-    authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-    authorName: "Olivia Doe",
-    authorPosition: "Head of Design, Google",
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-    authorName: "Olivia Doe",
-    authorPosition: "Head of Design, Google",
   },
 ];
 
