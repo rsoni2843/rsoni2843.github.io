@@ -2,6 +2,7 @@ import React from "react";
 import "./common.css";
 // import AOS from 'aos';
 import "aos/dist/aos.css";
+import profile from "./Profile.png";
 
 const Hero = () => {
   return (
@@ -28,7 +29,9 @@ const Hero = () => {
           <div className="hidden lg:flex flex-1 justify-end items-end h-full ">
             <img
               className="slide-up-center h-full imageNipendra"
-              src={"https://i.stack.imgur.com/xPFf4.png"}
+              // src={"https://i.stack.imgur.com/xPFf4.png"}
+              // src={"https://i.stack.imgur.com/07m9c.jpg"}
+              src={profile}
               alt="Nipendra"
             />
           </div>

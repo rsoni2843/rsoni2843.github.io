@@ -1,4 +1,3 @@
-//  icons
 import {
   FiLinkedin,
   FiGithub,
@@ -8,8 +7,6 @@ import {
   FiPhoneCall,
 } from "react-icons/fi";
 
-
-// navigation
 export const navigation = [
   {
     name: "home",
@@ -34,7 +31,6 @@ export const navigation = [
   },
 ];
 
-// social
 export const social = [
   {
     icon: <FiGithub />,
@@ -51,7 +47,6 @@ export const social = [
   },
 ];
 
-// projects
 export const projectsData = [
   {
     id: "3",
@@ -65,6 +60,18 @@ export const projectsData = [
     description:
       "Care&Fit is a health and fitness platform where you can buy online checkup tests and also book session for mind therapy and consult doctors.",
     link: "https://moonlit-gumption-211089.netlify.app/",
+  },
+  {
+    id: 20,
+    image: "https://i.stack.imgur.com/6HeP9.png",
+    name: "ChatApp (Individual)",
+    github: "https://github.com/rsoni2843/Chat-app-with-typescript",
+    stack:
+      "React JS, Redux, TypeScript, Socket IO, Node JS, Express JS, Mongo DB, Chakra UI",
+    category: "Messaging",
+    description:
+      "Chatting application where user can interact with other users present on the dashboard.",
+    link: "https://teal-creponne-2efc7a.netlify.app",
   },
   {
     id: "2",
