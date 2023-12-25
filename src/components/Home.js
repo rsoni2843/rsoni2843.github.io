@@ -28,7 +28,7 @@ const Hero = () => {
           </div>
           <div className="hidden lg:flex flex-1 justify-end items-end h-full ">
             <img
-              className="slide-up-center h-full imageNipendra"
+              className="slide-up-center h-full object-cover imageNipendra"
               // src={"https://i.stack.imgur.com/xPFf4.png"}
               // src={"https://i.stack.imgur.com/07m9c.jpg"}
               src={profile}
