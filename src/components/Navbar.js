@@ -11,9 +11,12 @@ const Navbar = () => {
       <TailwindNavbar
         brand={
           <img
-            src={"https://i.stack.imgur.com/UJj6K.png"}
-            width="170"
-            height="70"
+            src={
+              "https://ik.imagekit.io/rqsoynsuq/Screenshot_2024-10-05_at_10.54.31_PM-removebg-preview.png?updatedAt=1728149117694"
+            }
+            // src={"https://i.stack.imgur.com/UJj6K.png"}
+            width="130"
+            height="90"
             alt="NS Logo"
           />
         }

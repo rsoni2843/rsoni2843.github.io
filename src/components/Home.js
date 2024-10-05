@@ -20,7 +20,10 @@ const Hero = () => {
               I'm a Full-Stack <br /> Web Developer.
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left"></p>
-            <a href="https://drive.google.com/file/d/1-L34BLuSuGmlDiFZV4QNBgoBK_7kCm8x/view">
+            <a
+              target="__blank"
+              href="https://drive.google.com/file/d/1wOHthJlffp8QNzpe01T55SppZQqTTBKT/view?usp=drive_link"
+            >
               <button className="btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all">
                 Resume
               </button>
@@ -28,10 +31,13 @@ const Hero = () => {
           </div>
           <div className="hidden lg:flex flex-1 justify-end items-end h-full ">
             <img
-              className="slide-up-center h-full object-cover imageNipendra"
+              className="slide-up-center h-full object-cover bg-transparent overflow-visible imageNipendra"
               // src={"https://i.stack.imgur.com/xPFf4.png"}
               // src={"https://i.stack.imgur.com/07m9c.jpg"}
-              src={profile}
+              src={
+                "https://ik.imagekit.io/rqsoynsuq/DSC_9666%20Background%20Removed.png?updatedAt=1722054243615"
+              }
+              // src={profile}
               alt="Nipendra"
             />
           </div>

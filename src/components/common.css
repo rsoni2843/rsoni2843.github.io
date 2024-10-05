@@ -104,5 +104,11 @@
   min-height: 170px;
   color: #43abd0;
 }
-
-
+.carousel.carousel-slider .control-arrow {
+  height: fit-content;
+  position: absolute;
+  top: 50% !important;
+  border-radius: 5px;
+  display: flex;
+  padding: 20px 10px 20px 10px !important;
+}
